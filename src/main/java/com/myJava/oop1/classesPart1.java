@@ -1,4 +1,4 @@
-package OOP_Part1;
+package com.myJava.oop1;
 /*
 * Objects store its state in fields as variables and expose their behavior in methods
 * Class is a template or blueprint for an object
