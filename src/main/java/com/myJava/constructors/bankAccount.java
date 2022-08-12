@@ -11,17 +11,21 @@ public class bankAccount {
     //Create constructor:
     public bankAccount() {
         //If empty constructor is called, we set the default values and call another constructor!
-        this("501001001", 5000.25,"Beta","ijk@xyz.com", "000-462-1001");
+        this("501001001", 5000.25, "Beta", "ijk@xyz.com", "000-462-1001");
         System.out.println("Created and called the empty constructor named bankAccount!!");
+    }
+
+    public bankAccount(String customerName, String email, String phoneNumber) {
+        this("501000100",5000.00,customerName,email,phoneNumber);
     }
 
     public bankAccount(String accountNumber, double balance, String customerName, String email, String phoneNumber) {
         System.out.println("myAccount constructor is called with parameters!");
-        this.accountNumber = accountNumber;
-        this.balance = balance;
-        this.customerName = customerName;
-        this.email = email;
-        this.phoneNumber = phoneNumber;
+//        this.accountNumber = accountNumber;
+//        this.balance = balance;
+//        this.customerName = customerName;
+//        this.email = email;
+//        this.phoneNumber = phoneNumber;
     }
 
     // Generate getters and setters

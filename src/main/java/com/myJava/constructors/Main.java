@@ -8,7 +8,7 @@ public class Main {
         // bankAccount myAccount = new bankAccount();
 
         //Calling constructor
-       // bankAccount myAccount = new bankAccount("501001010", 2500.75, "Alpha", "abc@fb.com", "00000000-462-1000"); //OP1
+        // bankAccount myAccount = new bankAccount("501001010", 2500.75, "Alpha", "abc@fb.com", "00000000-462-1000"); //OP1
         bankAccount myAccount = new bankAccount();  //OP2
         //verify parameters:
         System.out.println(myAccount.getCustomerName());
@@ -26,6 +26,9 @@ public class Main {
 
         myAccount.deposit(10000);
         myAccount.withdrawal(500.50);
+
+        bankAccount mvAccount = new bankAccount("MV","abc@abc.com", "12345677889");
+        System.out.println("Name: "+ mvAccount.getCustomerName() + "Email: " + mvAccount.getEmail() + "Phone Number: " + mvAccount.getPhoneNumber());
     }
 }
 
