@@ -8,7 +8,8 @@ public class Main {
 
         //eat and move methods are inherited from Animal class
         dog.eat();
-        dog.move();
+        dog.walk();
+        dog.run();
     }
 }
 

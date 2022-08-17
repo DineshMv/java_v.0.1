@@ -39,7 +39,7 @@ public class Animal {
         System.out.println("Animal.eat() method is called!");
     }
 
-    public void move() {
-        System.out.println("Animal.move() method is called!");
+    public void move(int speed) {
+        System.out.println("Animal.move() is called. Animal is moving at a speed of : " + speed);
     }
 }

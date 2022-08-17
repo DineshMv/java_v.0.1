@@ -4,11 +4,11 @@ package com.myJava.inheritance;
 //Need to call the constructor to inherit through extends keyword
 public class Dog extends Animal {
     //Class dog has additional characteristics, but it also has basic characteristics that are extended from Animal class
-    private int eyes;
-    private int legs;
-    private int tail;
-    private int teeth;
-    private String coat;
+    private final int eyes;
+    private final int legs;
+    private final int tail;
+    private final int teeth;
+    private final String coat;
 
     //Use generate constructor to auto fetch the constructor Animal to Dog class/constructor
     public Dog(String name, int weight, int size, int eyes, int legs, int tail, int teeth, String coat) {
@@ -32,6 +32,17 @@ public class Dog extends Animal {
     private void chew() {
         System.out.println("Dog.chew() is called!");
     }
+
+    public void walk() {
+        System.out.println("Dog.walk() is called!");
+        move(5);
+    }
+
+    public void run() {
+        System.out.println("Dog.run() is called!");
+        move(10);
+    }
+
 
 }
 
