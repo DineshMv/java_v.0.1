@@ -1,0 +1,15 @@
+1. Static variables are declared by static keyword
+2. Static variables are also known as static member variables
+3. Every instance of the class share the same variable.
+4. If changes are made to that variable, all other instances of the variables will be changed/updated with new value
+
+Ex: when using Scanner class, we can declare Scanner as a static variable so all Static methods can access the scanner directly.
+
+Instance variables:
+1. They don't use static keyword
+2. Instance variables are also called as fields or member variables
+3. Instance variables belongs to instance of a class
+4. Every instance has its own copy of an instance variable
+5. Every instance can have a different value(State)
+6. Instance variables represent the state of an instance
+

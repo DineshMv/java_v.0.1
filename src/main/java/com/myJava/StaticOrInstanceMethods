@@ -1,0 +1,17 @@
+A method that does not use instance variables should be declared as a static method. Static methods are declared using static modifier.
+
+Static methods cannot access instance methods or instance variables direcly. They are usually used for operations that don't require any data from an instance of the class.
+
+this keyword is the current instance of a class.
+We cannot use this keyword in a static method.
+
+Ex: Main is a static method and is called by JVM when it starts the application
+
+Instance methods belongs to instance of a class.
+To use instance methods, we have to instantiate the method using new keyword.
+Instance methods can access instance methods or instance variables directly
+Instance methods can also access static methods or static variables directly
+
+Rules to decide when to use static or instance methods:
+1. If the instance of an object or variable is used in other methods, then we need to use instance methods
+2. If the method doesn't use any instances of a variable or objects, then a static method can be used
