@@ -1,7 +1,6 @@
 package com.myJava.inheritanceChallenge;
-
-public class Car extends Vehicle{
-//    public void movingSpeed(double speed){
+public class Car extends Vehicle {
+    //    public void movingSpeed(double speed){
 //        this.speed = speed;
 //        System.out.println("Speed is: "  + speed);
 //    }
@@ -32,16 +31,17 @@ public class Car extends Vehicle{
 
     public void changeGear(int currentGear) {
         this.currentGear = currentGear;
-        System.out.println("Car.setCurrentGear(): changed to " + this.currentGear + "gear.");
+        System.out.println("Car.setCurrentGear(): changed to " + this.currentGear + " gear.");
     }
 
-    public void changeVelocity(int speed, int direction){
+    public void changeVelocity(int speed, int direction) {
+        System.out.println("Car.changeVelocity(): Velocity " + speed + " direction " + direction);
         move(speed, direction);
-        System.out.println("Car.changeVelocity(): Velocity "+ speed + " direction "+ direction);
     }
 
-//    @Override
-//    public void stop(int speed) {
-//        super.stop(speed);
-//    }
+    @Override
+    public void stop() {
+        super.stop();
+    }
+
 }
