@@ -1,4 +1,4 @@
-package com.myJava.thisvssuper;
+package com.myJava.OOP1.thisvssuper;
 //Super is used to access or call the parent class members (variables and methods)!
 //this is used to call current class members(Variables and methods).
 // This is required when we have a parameter with same name as instance variable (field).

@@ -1,4 +1,4 @@
-package com.myJava.refInsObjClas;
+package com.myJava.OOP1.refInsObjClas;
 
 //We can pass references as parameters to constructors or methods
 

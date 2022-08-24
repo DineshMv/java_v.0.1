@@ -1,4 +1,4 @@
-package com.myJava.inheritance;
+package com.myJava.OOP1.inheritance;
 
 public class Animal {
     private int brain;

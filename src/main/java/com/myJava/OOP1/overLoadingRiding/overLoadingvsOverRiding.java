@@ -1,4 +1,4 @@
-package com.myJava.overLoadingRiding;
+package com.myJava.OOP1.overLoadingRiding;
 /*
 Method Overloading:
 

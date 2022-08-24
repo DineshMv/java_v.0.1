@@ -1,4 +1,4 @@
-package com.myJava.refInsObjClas;
+package com.myJava.OOP1.refInsObjClas;
 
 public class Main {
     public static void main(String[] args) {

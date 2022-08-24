@@ -1,4 +1,4 @@
-package com.myJava.inheritanceChallenge;
+package com.myJava.OOP1.inheritanceChallenge;
 
 public class Ferrari extends Car {
     private int roadServiceMonths;

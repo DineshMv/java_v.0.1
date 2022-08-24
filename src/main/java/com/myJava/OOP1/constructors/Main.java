@@ -1,4 +1,4 @@
-package com.myJava.constructors;
+package com.myJava.OOP1.constructors;
 
 //Purpose of a constructor is to initialise the object created by setting all the initial values to the fields or any other initialization
 //bankAccount() => Calls the special method that creates the class / constructor.

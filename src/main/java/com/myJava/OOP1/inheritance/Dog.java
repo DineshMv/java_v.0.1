@@ -1,4 +1,4 @@
-package com.myJava.inheritance;
+package com.myJava.OOP1.inheritance;
 
 //If we want to inherit from another class we use extends keyword!
 //Need to call the constructor to inherit through extends keyword

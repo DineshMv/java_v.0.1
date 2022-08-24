@@ -1,4 +1,4 @@
-package com.myJava.inheritanceChallenge;
+package com.myJava.OOP1.inheritanceChallenge;
 public class Car extends Vehicle {
     //    public void movingSpeed(double speed){
 //        this.speed = speed;

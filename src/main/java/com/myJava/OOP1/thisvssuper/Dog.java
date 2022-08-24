@@ -1,4 +1,4 @@
-package com.myJava.thisvssuper;
+package com.myJava.OOP1.thisvssuper;
 //Example for static and instance variables
 public class Dog {
     //private static String name;

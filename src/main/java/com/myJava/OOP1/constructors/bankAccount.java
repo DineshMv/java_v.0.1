@@ -1,4 +1,4 @@
-package com.myJava.constructors;
+package com.myJava.OOP1.constructors;
 
 //Declare object fields
 public class bankAccount {

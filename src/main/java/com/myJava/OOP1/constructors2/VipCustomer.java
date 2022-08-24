@@ -1,4 +1,4 @@
-package com.myJava.constructors2;
+package com.myJava.OOP1.constructors2;
 
 public class VipCustomer {
 

@@ -1,4 +1,4 @@
-package com.myJava.oop1;
+package com.myJava.OOP1;
 
 //Classes part-1
 public class Car {
